@@ -60,7 +60,9 @@ __Clover config__
 
 Use rehabman's config: `config_HD615_620_630_640_650.plist`   
 I used SSDT files and patches from: https://github.com/dongcodebmt/VX5-591G-OpenCore   
-Boot args: `alcid=30 keepsyms=1 debug=0x100`
+Boot args: `alcid=29 keepsyms=1 debug=0x100`   
+I use `alcid=29` it seems fine, however I have not tried it with the headphone jack yet. If that doesn't work, try `alcid=30`   
+For power management, create your own CPUFriend   
 
 __Fix Timezone (Dual Boot)__
 
